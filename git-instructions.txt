@@ -1,0 +1,8 @@
+git config user.name "Khandevops1"
+git config user.eamil nnooffcial@gmail.com
+
+
+git add . - adds all files to the stanging area
+git status - command to check the status of our files, if they are added or not
+git commit -m "massage" -commits the files to the local repository
+git push   - pushes the files  to the remote repository
