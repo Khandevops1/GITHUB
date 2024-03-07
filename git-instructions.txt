@@ -1,8 +1,40 @@
-git config user.name "Khandevops1"
-git config user.eamil nnooffcial@gmail.com
-
-
+git config --global user.name "Khandevops1"
+git config --global user.eamil nnooffcial@gmail.com
+git init - for intializing
 git add . - adds all files to the stanging area
 git status - command to check the status of our files, if they are added or not
 git commit -m "massage" -commits the files to the local repository
 git push   - pushes the files  to the remote repository
+git log    - command to check a history of our commits (our saved files)
+in the file itself after done changes run "CTRL+S" 
+IN GIT WE HAVE 3 STAGE:  1> WORKING STAGE - FILES THAT ARE NOT added
+                         2> STAGING - AFTER WHEN WE RUN COMMAND "GIT ADD ." NOW FILES ARE STAGED
+                         3> COMMIT - COMMITED (SAVED FILES)
+
+FILES ALSO CAN 3 STATES: 1> INMODIFIED
+                         2> MODIFIED
+                         3> STAGED
+
+WHEN WE RUN COMMAND GIT LOG WE SEE: 
+                         1> COMMIT ID (COMMIT SHA/HASH)2
+                         2> (HEAD -> master or main) - it means your branch that you work on, and last
+                         3> AUTHOR - who made the commit 
+                         4> DATE - when the commit was made 
+                         5> COMMIT massage - what the commit is about 
+
+git restore --staged "file name" - command for 
+git log --oneline - command for one-line view commits 
+git commit --amend - command to change the massage of the commit
+git reset id_commit - command to delete commit
+git rebase -i --root -  rebase to rewrite the history of the commits
+git branch -a - command to show all existing branches 
+git checkout -b "branchname"   - to create branch 
+git checkout "branchname" - command to switch between branches
+git merge "branchname" - command to merge second branch to master/main. command has to be done from the main/master branch.
+git branch -d "branchname" - command for delete branch 
+
+GIT FLOW - STRATEGY HOW ALL COMPANIES WORK. 
+                        1> OFF OF MAIN/MASTER WE CREATE A FUTURE BRANCH (IT HAS A CODE FROM OUR MAIN BRANCH)
+                        2> WE DO OUR WORK IN THE FUTURE BRANCH
+                        3> WHEN WE ARE FINISHED WE MERGE THE FUTURE BRANCHTO THE MAIN/MASTER BRANCH
+                        
