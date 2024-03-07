@@ -27,11 +27,12 @@ git log --oneline - command for one-line view commits
 git commit --amend - command to change the massage of the commit
 git reset id_commit - command to delete commit
 git rebase -i --root -  rebase to rewrite the history of the commits
-git branch -a - command to show all existing branches 
+git branch  - command to show all existing branches 
 git checkout -b "branchname"   - to create branch 
-git checkout "branchname" - command to switch between branches
-git merge "branchname" - command to merge second branch to master/main. command has to be done from the main/master branch.
-git branch -d branchname  - for delete branch
+git checkout "branch name" - command to switch between branches
+git merge secondbranch - command to merge second branch to master/main. command has to be done from the main/master branch.
+git branch -d "branchname" - command for delete branch 
+>>>>>>> bc5e67be3d85052e5cdbb60213b5fa146a2819ff
 
 GIT FLOW - STRATEGY HOW ALL COMPANIES WORK. 
                         1> OFF OF MAIN/MASTER WE CREATE A FUTURE BRANCH (IT HAS A CODE FROM OUR MAIN BRANCH)
