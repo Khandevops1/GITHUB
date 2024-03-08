@@ -7,6 +7,7 @@ git commit -m "massage" -commits the files to the local repository
 git push   - pushes the files  to the remote repository
 git log    - command to check a history of our commits (our saved files)
 in the file itself after done changes run "CTRL+S" 
+
 IN GIT WE HAVE 3 STAGE:  1> WORKING STAGE - FILES THAT ARE NOT added
                          2> STAGING - AFTER WHEN WE RUN COMMAND "GIT ADD ." NOW FILES ARE STAGED
                          3> COMMIT - COMMITED (SAVED FILES)
@@ -31,11 +32,12 @@ git branch  - command to show all existing branches
 git checkout -b "branchname"   - to create branch 
 git checkout "branch name" - command to switch between branches
 git merge secondbranch - command to merge second branch to master/main. command has to be done from the main/master branch.
-git branch -d "branchname" - command for delete branch 
->>>>>>> bc5e67be3d85052e5cdbb60213b5fa146a2819ff
-
+git branch -d "branchname" - command for delete branch
+git clean -f (file) or -d (directory)  - command to 
+                
 GIT FLOW - STRATEGY HOW ALL COMPANIES WORK. 
                         1> OFF OF MAIN/MASTER WE CREATE A FUTURE BRANCH (IT HAS A CODE FROM OUR MAIN BRANCH)
                         2> WE DO OUR WORK IN THE FUTURE BRANCH
                         3> WHEN WE ARE FINISHED WE MERGE THE FUTURE BRANCHTO THE MAIN/MASTER BRANCH
                         
+git
